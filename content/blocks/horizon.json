@@ -1,0 +1,15 @@
+{
+	"type": "LightBlock",
+	"name": "Horizon",
+	"description": "Yep.",
+	"brightness": 0.7,
+	"radius": 700,
+	"size": 2,
+	"consumes": {
+		"power": 8,
+	},
+	"category": "effect",
+	"requirements": [
+		{ "item": "lead", "amount": 18 }
+	]
+}

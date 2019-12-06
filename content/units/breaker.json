@@ -1,0 +1,43 @@
+{
+	"type": "GroundUnit",
+	"name": "Breaker",
+	"description": "One unit, and all hell breaks lose.",
+	"health": 15000,
+	"hitsize": 24,
+	"hitesizeTile": 32,
+	"speed": 0.4,
+	"attackLength": 100,
+	"rotatespeed": 1,
+	"baseRotateSpeed": 0.3,
+	"mass": 2,
+	"flying": false,
+	"targetAir": true,
+	"range": 500,
+	"drag": 0.5,
+	"weapon": {
+		"name": "downfall",
+		"length": 12.0,
+		"width": 19.0,
+		"reload": 15,
+		"recoil": 4.0,
+		"alternate": true,
+		"bullet": {
+		"type":"MissileBulletType",
+			"speed": 12.5,
+			"damage": 285,
+			"bulletWidth": 18,
+			"bulletHeight": 35,
+			"shootEffect": "shockwave",
+			"smokeEffect": "shootBigSmoke2",
+			"hitEffect": "shockwave",
+			"lifetime": 60,
+			"inaccuracy": 3,
+			"frontColor": "71B6DD",
+			"backColor": "71B6DD",
+			"trailColor": "1E3B45",
+			"splashDamage": 155,
+			"splashDamageRadius": 60,
+			"bulletShrink": 1
+		}
+	}
+}

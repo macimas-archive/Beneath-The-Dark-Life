@@ -1,0 +1,33 @@
+{
+	"type": "DoubleTurret",
+	"name": "Split",
+	"description": "Split!",
+	"heath": 200,
+	"size": 2,
+	"shots": 8,
+	"reload": 7,
+	"range": 450,
+	"recoil": 4,
+	"shootSound": "yeo",
+	"category": "turret",
+	"ammo": {
+		"metaglass": {
+			"speed": 6.5,
+			"damage": 32,
+			"bulletWidth": 12,
+			"bulletHeight": 25,
+			"bulletShrink": 0.25,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootSmallSmoke",
+			"frontColor": "FFFFFF",
+			"backColor": "2D2D2D",
+			"lifetime": 140,
+			"ammoMultiplier": 8,
+		},
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 120 }
+		{ "item": "titanium", "amount": 60 }
+	]
+
+}

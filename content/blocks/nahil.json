@@ -1,0 +1,36 @@
+{
+	"type": "DoubleTurret",
+	"name": "Nahil",
+	"description": "Oh no.",
+	"heath": 300,
+	"size": 3,
+	"shots": 10,
+	"reload": 5,
+	"range": 385,
+	"recoil": 7,
+	"inaccuracy": 12,
+	"rotatespeed": 12,
+	"shootSound": "yeo",
+	"category": "turret",
+	"ammo": {
+		"graphite": {
+			"speed": 8.5,
+			"damage": 255,
+			"bulletWidth": 50,
+			"bulletHeight": 50,
+			"bulletShrink": 0.5,
+			"splashDamage": 100,
+			"splashDamgeRadius": 60,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootSmallSmoke",
+			"frontColor": "FFFFFF",
+			"backColor": "2D2D2D",
+			"lifetime": 95,
+			"ammoMultiplier": 4,
+		},
+	},
+	"requirements": [
+		{ "item": "plastanium", "amount": 250 }
+		{ "item": "surge-alloy", "amount": 125 }
+	]
+}
